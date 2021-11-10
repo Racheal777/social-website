@@ -22,6 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '4(ps45_dkl(*+5h45fqx0+=vgd1^hckoj8(_-r&2^2sk-lp&1('
 
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -127,5 +128,8 @@ STATIC_URL = '/static/'
 LOGIN_REDIRECT_URL ='dashboard'
 LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
+<<<<<<< HEAD
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+=======
+>>>>>>> origin/master
